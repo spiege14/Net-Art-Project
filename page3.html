@@ -1,0 +1,63 @@
+<html>
+<title>Page 3</title>
+  <head>
+
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
+  
+  </head>
+  <body>
+<img id=Image1 src="Error Page.jpg" style="width: 35%;">
+
+
+
+<button id="FirstButton" onclick="ChangeImage1()">Chicago Tribune</button>
+<button id="SecondButton" onclick="ChangeImage2()">CNN</button>
+<button id="ThirdButton" onclick="ChangeImage3()">New York Times</button>
+<button id="FourthButton" onclick="ChangeImage4()">USA Today</button>
+<button id="FifthButton" onclick="ChangeImage5()">Detroit Free Press</button>
+
+<br/> 
+<br/> 
+
+<br/> 
+
+<br/> 
+<br/> 
+
+<p>When you are done viewing the news, click here to check out more!</p>
+  <button id="ClickHere" onclick="NewLink()">CLICK HERE!</button>
+
+    <script> 
+function ChangeImage1(){
+
+  document.getElementById("Image1").src="Error Page.jpg";
+}
+function ChangeImage2(){
+
+  document.getElementById("Image1").src="Big News Blue.jpg";
+}
+function ChangeImage3(){
+
+  document.getElementById("Image1").src="Big News Green.jpg";
+}
+function ChangeImage4(){
+
+  document.getElementById("Image1").src="Big News Purple.jpg";
+}
+function ChangeImage5(){
+
+  document.getElementById("Image1").src="Big News Red.jpg";
+}
+function NewLink(){
+  window.open("page4.html");
+}
+
+
+
+
+
+      </script>
+    <main>
+    </main>
+  </body>
+</html>
